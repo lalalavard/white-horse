@@ -651,10 +651,10 @@ public String index(@PathVariable("str") String text){
 
 我们可以按照不同功能进行划分：
 
-- POST http://localhost:8080/mvc/index - 添加用户信息，携带表单数据
-- GET http://localhost:8080/mvc/index/{id} - 获取用户信息，id 直接放在请求路径中
-- PUT http://localhost:8080/mvc/index - 修改用户信息，携带表单数据
-- DELETE http://localhost:8080/mvc/index/{id} - 删除用户信息，id 直接放在请求路径中
+- POST `http://localhost:8080/mvc/index` - 添加用户信息，携带表单数据
+- GET `http://localhost:8080/mvc/index/{id}` - 获取用户信息，id 直接放在请求路径中
+- PUT `http://localhost:8080/mvc/index` - 修改用户信息，携带表单数据
+- DELETE `http://localhost:8080/mvc/index/{id}` - 删除用户信息，id 直接放在请求路径中
 
 我们分别编写四个请求映射：
 

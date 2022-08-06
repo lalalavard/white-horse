@@ -70,7 +70,7 @@ $JAVA ${JAVA_OPT} nacos.nacos
 
 ![image-20220326132051779](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n7r3rhzqj22o80jw0wb.jpg)
 
-OK，启动成功，可以看到它的管理页面地址也是给我们贴出来了： http://localhost:8848/nacos/index.html，访问这个地址：
+OK，启动成功，可以看到它的管理页面地址也是给我们贴出来了： `http://localhost:8848/nacos/index.html`，访问这个地址：
 
 ![image-20220326132157126](https://tva1.sinaimg.cn/large/e6c9d24ely1h0n7s92e4jj21lh0u0whw.jpg)
 
@@ -546,21 +546,28 @@ public class TestController {
 
 解压之后，我们对其配置文件进行修改，首先是`application.properties`配置文件，修改以下内容，包括 MySQL 服务器的信息：
 
-`````yaml
+```yaml
+
 ### Default web server port:
+
 server.port=8801
 
-#*************** Config Module Related Configurations ***************#
+#******\*\*\******* Config Module Related Configurations ******\*\*\*******#
+
 ### If use MySQL as datasource:
+
 spring.datasource.platform=mysql
 
 ### Count of DB:
+
 db.num=1
 
 ### Connect URL of DB:
+
 db.url.0=jdbc:mysql://cloudstudy.mysql.cn-chengdu.rds.aliyuncs.com:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true&useUnicode=true&useSSL=false&serverTimezone=UTC
 db.user.0=nacos
 db.password.0=nacos
+
 ```
 
 然后修改集群配置，这里需要重命名一下：
@@ -599,20 +606,20 @@ db.password.0=nacos
 
 现在我们需要让其代理我们刚刚启动的两个 Nacos 服务器，我们需要对其进行一些配置。配置文件位于`/etc/nginx/nginx.conf`，添加以下内容：
 
-```conf
+```sh
 #添加我们在上游刚刚创建好的两个nacos服务器
 upstream nacos-server {
-        server 10.0.0.12:8801;
-        server 10.0.0.12:8802;
+server 10.0.0.12:8801;
+server 10.0.0.12:8802;
 }
 
 server {
-        listen   80;
-        server_name  1.14.121.107;
+listen   80;
+server_name  1.14.121.107;
 
-        location /nacos {
-                proxy_pass http://nacos-server;
-        }
+location /nacos {
+proxy_pass http://nacos-server;
+}
 }
 ```
 
@@ -661,7 +668,7 @@ Sentinel 具有以下特征:
 
 ![image-20220327163110733](https://tva1.sinaimg.cn/large/e6c9d24ely1h0oivfso85j218e04cmxt.jpg)
 
-启动之后，就可以访问到 Sentinel 的监控页面了，用户名和密码都是`sentinel`，地址：http://localhost:8858/#/dashboard
+启动之后，就可以访问到 Sentinel 的监控页面了，用户名和密码都是`sentinel`，地址：`http://localhost:8858/#/dashboard`
 
 ![image-20220327163206117](https://tva1.sinaimg.cn/large/e6c9d24ely1h0oiweerr4j22mg0dwwfm.jpg)
 
@@ -968,9 +975,9 @@ String except(Throwable t){
 
 我们还可以对某一热点数据进行精准限流，比如在某一时刻，不同参数被携带访问的频率是不一样的：
 
-- http://localhost:8301/test?a=10 访问 100 次
-- http://localhost:8301/test?b=10 访问 0 次
-- http://localhost:8301/test?c=10 访问 3 次
+- `http://localhost:8301/test?a=10` 访问 100 次
+- `http://localhost:8301/test?b=10` 访问 0 次
+- `http://localhost:8301/test?c=10` 访问 3 次
 
 由于携带参数`a`的请求比较多，我们就可以只对携带参数`a`的请求进行限流。
 
@@ -1703,7 +1710,7 @@ CREATE TABLE `undo_log`
 
 我们打开`conf`目录中的`registry.conf`配置文件：
 
-````yaml
+```yaml
 registry {
 	# 注册配置
 	# 可以看到这里可以选择类型，默认情况下是普通的file类型，也就是本地文件的形式进行注册配置
@@ -1733,7 +1740,7 @@ registry {
 
 注册信息配置完成之后，接着我们需要将配置文件也放到 Nacos 中，让 Nacos 管理配置，这样我们就可以对配置进行热更新了，一旦环境需要变化，只需要直接在 Nacos 中修改即可。
 
-````yaml
+```yaml
 config {
 	# 这里我们也使用nacos
   # file、nacos 、apollo、zk、consul、etcd3
@@ -1908,4 +1915,3 @@ INSERT INTO `distributed_lock` (lock_key, lock_value, expire) VALUES ('HandleAll
 到此，关于基于 nacos 模式下的 Seata 部署，就完成了。
 
 虽然我们这里实现了分布式事务，但是还是给各位同学提出一个问题（可以把自己所认为的结果打在弹幕上），就我们目前这样的程序设计，在高并发下，真的安全吗？比如同一时间 100 个同学抢同一个书，但是我们知道同一个书就只有 3 本，如果这时真的同时来了 100 个请求要借书，会正常地只借出 3 本书吗？如果不正常，该如何处理？
-`````

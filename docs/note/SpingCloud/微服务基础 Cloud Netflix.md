@@ -1215,11 +1215,11 @@ management:
         include: '*'
 ```
 
-接着我们打开刚刚启动的管理页面，地址为：http://localhost:8900/hystrix/
+接着我们打开刚刚启动的管理页面，地址为：`http://localhost:8900/hystrix/`
 
 ![image-20220324225733550](https://tva1.sinaimg.cn/large/e6c9d24ely1h0ld6jtiijj22ij0u042v.jpg)
 
-在中间填写要监控的服务：比如借阅服务：http://localhost:8301/actuator/hystrix.stream，注意后面要添加`/actuator/hystrix.stream`，然后点击 Monitor Stream 即可进入监控页面：
+在中间填写要监控的服务：比如借阅服务：`http://localhost:8301/actuator/hystrix.stream`，注意后面要添加`/actuator/hystrix.stream`，然后点击 Monitor Stream 即可进入监控页面：
 
 ![image-20220324230515009](https://tva1.sinaimg.cn/large/e6c9d24ely1h0ldejq3n0j22ly0puwhu.jpg)
 
@@ -1526,14 +1526,14 @@ spring:
 
 然后启动我们的配置服务器，通过以下格式进行访问：
 
-- http://localhost:8700/{服务名称}/{环境}/{Git 分支}
-- http://localhost:8700/{Git 分支}/{服务名称}-{环境}.yml
+- `http://localhost:8700/{服务名称}/{环境}/{Git 分支}`
+- `http://localhost:8700/{Git 分支}/{服务名称}-{环境}.yml`
 
-比如我们要访问图书服务的生产环境代码，可以使用 http://localhost:8700/bookservice/prod/main 链接，它会显示详细信息：
+比如我们要访问图书服务的生产环境代码，可以使用 `http://localhost:8700/bookservice/prod/main` 链接，它会显示详细信息：
 
 ![image-20220325221946363](https://tva1.sinaimg.cn/large/e6c9d24ely1h0mhpjeaiyj22is0cadjs.jpg)
 
-也可以使用 http://localhost:8700/main/bookservice-prod.yml 链接，它仅显示配置文件原文：
+也可以使用 `http://localhost:8700/main/bookservice-prod.yml` 链接，它仅显示配置文件原文：
 
 ![image-20220325222309095](https://tva1.sinaimg.cn/large/e6c9d24ely1h0mht1siqdj21ro0hu41a.jpg)
 

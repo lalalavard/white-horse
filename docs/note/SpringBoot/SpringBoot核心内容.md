@@ -120,7 +120,7 @@ class SpringBootTestApplicationTests {
 
 ### 它是真的快
 
-创建完成后，直接开启项目，我们就可以直接访问：http://localhost:8080/，我们可以看到，但是由于我们没有编写任何的请求映射，所以没有数据。我们可以来看看日志：
+创建完成后，直接开启项目，我们就可以直接访问：`http://localhost:8080/`，我们可以看到，但是由于我们没有编写任何的请求映射，所以没有数据。我们可以来看看日志：
 
 ```
 2022-01-06 22:17:46.308  INFO 853 --- [           main] c.example.SpringBootWebTestApplication   : Starting SpringBootWebTestApplication using Java 1.8.0_312 on NagodeMacBook-Pro.local with PID 853 (/Users/nagocoler/Downloads/SpringBootWebTest/target/classes started by nagocoler in /Users/nagocoler/Downloads/SpringBootWebTest)
