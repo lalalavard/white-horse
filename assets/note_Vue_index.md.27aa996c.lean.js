@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n,d as a}from"./app.67fa2ee8.js";const u=JSON.parse('{"title":"Hello World {.text-3xl .font-bold .underline}","description":"","frontmatter":{},"headers":[],"relativePath":"note/Vue/index.md"}'),o={name:"note/Vue/index.md"},s=a("",2),r=[s];function i(d,l,c,h,_,p){return n(),t("div",null,r)}var m=e(o,[["render",i]]);export{u as __pageData,m as default};

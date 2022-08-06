@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n,d as a}from"./app.67fa2ee8.js";const m=JSON.parse('{"title":"Intro{.text-3xl .font-bold .underline}","description":"","frontmatter":{},"headers":[],"relativePath":"note/Intro/index.md"}'),s={name:"note/Intro/index.md"},o=a("",2),r=[o];function i(d,l,c,_,h,p){return n(),t("div",null,r)}var u=e(s,[["render",i]]);export{m as __pageData,u as default};
