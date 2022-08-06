@@ -84,8 +84,12 @@ const Sidebar = [
         link: '/note/SpringBoot/其他中间件介绍'
       },
       {
-        text: 'SpringBoot核心内容',
-        link: '/note/SpringBoot/SpringBoot核心内容'
+        text: 'Git版本控制',
+        link: '/note/SpringBoot/Git版本控制'
+      },
+      {
+        text: 'Linux系统与项目部署',
+        link: '/note/SpringBoot/Linux系统与项目部署'
       }
     ]
   },
