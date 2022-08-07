@@ -45,7 +45,6 @@ public String pay(String account,
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <title>我是(恶)学(意)习网站</title>
   </head>
   <body>

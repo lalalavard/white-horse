@@ -15,7 +15,7 @@
 
 :::
 
-![](../public/interview/fe_resume.jpg)
+![](/interview/fe_resume.jpg)
 
 ## 后端标准简历
 
@@ -23,5 +23,5 @@
 后端我不熟哈 😥
 :::
 
-![](../public/interview/be_resume.jpg)
-![](../public/interview/java_resume.jpg)
+![](/interview/be_resume.jpg)
+![](/interview/java_resume.jpg)

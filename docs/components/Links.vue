@@ -7,7 +7,6 @@
       <div class="card">
         <div class="photo">
           <img src="/animate/1.jpg" />
-          {/* <Image img="{gongchun" /> */
         </div>
         <h1>宫村</h1>
         <h2>宫村伊澄</h2>
@@ -20,7 +19,6 @@
       <div class="card">
         <div class="photo">
           <img src="/animate/2.jpg" />
-          {/* <Image img="{ku" /> */
         </div>
         <h1>堀</h1>
         <h2>堀京子</h2>
@@ -33,7 +31,6 @@
       <div class="card">
         <div class="photo">
           <img src="/animate/3.jpg" />
-          {/* <Image img="{huiye" /> */
         </div>
         <h1>辉夜</h1>
         <h2>四宫辉夜</h2>
@@ -46,7 +43,6 @@
       <div class="card">
         <div class="photo">
           <img src="/animate/4.jpg" />
-          {/* <Image img="{violet" /> */
         </div>
         <h1>薇尔莉特</h1>
         <h2>薇尔莉特·伊芙加登</h2>
@@ -58,9 +54,6 @@
 <script setup lang="ts"></script>
 
 <style scoped lang="scss">
-// .main {
-//   justify-content: center;
-// }
 .container {
   // display: grid;
   display: flex;
