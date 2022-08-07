@@ -20,6 +20,27 @@ export default defineConfig(({ command }: ConfigEnv) => {
       alias: {
         '@': path.resolve(__dirname, 'src')
       }
+    },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          charset: false
+        }
+      },
+      postcss: {
+        plugins: [
+          {
+            postcssPlugin: 'internal:charset-removal',
+            AtRule: {
+              charset: (atRule) => {
+                if (atRule.name === 'charset') {
+                  atRule.remove()
+                }
+              }
+            }
+          }
+        ]
+      }
     }
   }
 })

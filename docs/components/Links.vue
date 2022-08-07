@@ -63,11 +63,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* 渐变背景 */
-  // background: linear-gradient(200deg, #517fa4, #243949);
 }
 .card {
-  /* 相对定位 */
   position: relative;
   // width: 300px;
   // height: 450px;
@@ -82,7 +79,6 @@
   align-items: center;
   color: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  /* 不让其被挤压 */
   flex-shrink: 0;
   h1 {
     font-size: 1.2rem;
@@ -95,22 +91,17 @@
 .card .photo img {
   width: 100%;
   height: 100%;
-  /* 保持原有尺寸比例，裁切长边 */
   object-fit: cover;
 }
-/* 默认大图 */
 .card .photo {
-  /* 绝对定位 */
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   border-radius: 0%;
   overflow: hidden;
-  /* 动画过渡 */
   transition: 0.5s;
 }
-/* 鼠标移入变小图 */
 .card:hover .photo {
   top: 30px;
   width: 120px;
@@ -118,7 +109,6 @@
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
-/* 这里加个黑色到透明的渐变背景，可以更好的看清楚名字 */
 .card .photo::before {
   content: '';
   position: absolute;
@@ -155,6 +145,5 @@
 .card a:hover {
   color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
-  // box-shadow: ;
 }
 </style>
