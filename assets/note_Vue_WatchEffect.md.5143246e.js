@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a}from"./app.b86e583d.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/Vue/WatchEffect.md"}'),c={name:"note/Vue/WatchEffect.md"};function r(o,n,s,f,p,_){return a(),t("div")}var m=e(c,[["render",r]]);export{i as __pageData,m as default};
