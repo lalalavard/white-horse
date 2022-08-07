@@ -29,15 +29,15 @@ const navbar = [
       { text: 'Compony', link: '/interview/Compony' }
     ]
   },
-  // {
-  //   text: 'Resource',
-  //   items: [
-  //     { text: 'Technical Books ', link: '/resource/Java' },
-  //     { text: 'Open Source Projects', link: '/resource/SpringBoot' },
-  //     { text: 'Site Navigation ', link: '/resource/SpringBoot' },
-  //     { text: 'Tools Sharing', link: '/resource/SpringBoot' }
-  //   ]
-  // },
+  {
+    text: 'Resource',
+    items: [
+      { text: 'Site Navigation ', link: '/resource/Navagation' },
+      { text: 'Technical Books ', link: '/resource/Books' },
+      { text: 'Open Source Projects', link: '/resource/Projects' },
+      { text: 'Tools Sharing', link: '/resource/Tools' }
+    ]
+  },
   { text: 'About', link: '/About' },
   { text: 'Links', link: '/FriendLink' }
 ]

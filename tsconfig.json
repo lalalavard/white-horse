@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "useUnknownInCatchVariables": false,
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
