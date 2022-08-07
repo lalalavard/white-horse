@@ -1,57 +1,57 @@
 <template>
   <section class="container">
-    <div class="card">
-      <div class="photo">
-        <img src="/animate/1.jpg" />
-        {/* <Image img="{gongchun" /> */
+    <a
+      href="https://www.bilibili.com/bangumi/play/ss36198/?spm_id_from=333.999.0.0"
+      target="_blank"
+    >
+      <div class="card">
+        <div class="photo">
+          <img src="/animate/1.jpg" />
+          {/* <Image img="{gongchun" /> */
+        </div>
+        <h1>宫村</h1>
+        <h2>宫村伊澄</h2>
       </div>
-      <h1>宫村</h1>
-      <h2>宫村伊澄</h2>
-      <a
-        href="https://www.bilibili.com/bangumi/play/ss36198/?spm_id_from=333.999.0.0"
-      >
-        了解更多
-      </a>
-    </div>
-    <div class="card">
-      <div class="photo">
-        <img src="/animate/2.jpg" />
-        {/* <Image img="{ku" /> */
+    </a>
+    <a
+      href="https://www.bilibili.com/bangumi/play/ss36198/?spm_id_from=333.999.0.0"
+      target="_blank"
+    >
+      <div class="card">
+        <div class="photo">
+          <img src="/animate/2.jpg" />
+          {/* <Image img="{ku" /> */
+        </div>
+        <h1>堀</h1>
+        <h2>堀京子</h2>
       </div>
-      <h1>堀</h1>
-      <h2>堀京子</h2>
-      <a
-        href="https://www.bilibili.com/bangumi/play/ss36198/?spm_id_from=333.999.0.0"
-      >
-        了解更多
-      </a>
-    </div>
-    <div class="card">
-      <div class="photo">
-        <img src="/animate/3.jpg" />
-        {/* <Image img="{huiye" /> */
+    </a>
+    <a
+      href="https://www.bilibili.com/bangumi/play/ss26274/?spm_id_from=333.999.0.0"
+      target="_blank"
+    >
+      <div class="card">
+        <div class="photo">
+          <img src="/animate/3.jpg" />
+          {/* <Image img="{huiye" /> */
+        </div>
+        <h1>辉夜</h1>
+        <h2>四宫辉夜</h2>
       </div>
-      <h1>辉夜</h1>
-      <h2>四宫辉夜</h2>
-      <a
-        href="https://www.bilibili.com/bangumi/play/ss26274/?spm_id_from=333.999.0.0"
-      >
-        了解更多
-      </a>
-    </div>
-    <div class="card">
-      <div class="photo">
-        <img src="/animate/4.jpg" />
-        {/* <Image img="{violet" /> */
+    </a>
+    <a
+      href="https://www.bilibili.com/bangumi/play/ss21542?spm_id_from=333.337.0.0"
+      target="_blank"
+    >
+      <div class="card">
+        <div class="photo">
+          <img src="/animate/4.jpg" />
+          {/* <Image img="{violet" /> */
+        </div>
+        <h1>薇尔莉特</h1>
+        <h2>薇尔莉特·伊芙加登</h2>
       </div>
-      <h1>薇尔莉特</h1>
-      <h2>薇尔莉特·伊芙加登</h2>
-      <a
-        href="https://www.bilibili.com/bangumi/play/ss21542?spm_id_from=333.337.0.0"
-      >
-        了解更多
-      </a>
-    </div>
+    </a>
   </section>
 </template>
 
@@ -95,6 +95,9 @@
     font-size: 1.2rem;
     color: #fff;
   }
+}
+.card:hover {
+  cursor: pointer;
 }
 .card .photo img {
   width: 100%;

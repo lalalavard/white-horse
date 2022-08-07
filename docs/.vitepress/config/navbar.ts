@@ -18,8 +18,9 @@ const navbar = [
     text: 'Interview',
     items: [
       { text: 'Java', link: '/interview/Java' },
+      { text: 'Spring SSM', link: '/interview/SpringSSM' },
       { text: 'Spring Boot', link: '/interview/SpringBoot' },
-      { text: 'Spring MVC', link: '/interview/SpringMVC' },
+      { text: 'Spring Cloud', link: '/interview/SpringCloud' },
       { text: 'Redis', link: '/interview/Redis' },
       { text: 'Mysql', link: '/interview/Mysql' },
       { text: 'Vue', link: '/interview/Vue' },
