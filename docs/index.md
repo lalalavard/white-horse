@@ -6,7 +6,7 @@ hero:
   text: Learn Programming ? Choose WhiteHorse!
   tagline: A single document covering the core knowledge that most Web programmers need to master
   image:
-    src: ../../vite.svg
+    src: https://aliyun-bucket1.oss-cn-guangzhou.aliyuncs.com/animate/avatar.jpg
     alt: VitePress
   actions:
     - theme: brand

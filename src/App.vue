@@ -6,7 +6,7 @@ export default defineComponent({
   render() {
     return (
       <div>
-        <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + JSX/TSX" />
+        <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + TailwindCSS +JSX/TSX" />
       </div>
     )
   }
