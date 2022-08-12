@@ -4,25 +4,31 @@ layout: home
 hero:
   name: WhiteHorse
   text: Learn Programming ? Choose WhiteHorse!
-  tagline: A single document covering the core knowledge that most Web programmers need to master
+  tagline: Learn just what you need to get started, then keep leveling up as you go. WhiteHorse scales from HELLO WORLD to Turing Award.
   image:
-    src: https://aliyun-bucket1.oss-cn-guangzhou.aliyuncs.com/animate/avatar.jpg
-    alt: VitePress
+    src: whitehorse.png
+    alt: WhiteHorse
   actions:
     - theme: brand
       text: Get Started
       link: note/Intro/Introduce
     - theme: alt
+      text: Follow on Bilibili
+      link: https://space.bilibili.com/37737161
+    - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/lalalavard/white-horse
 features:
-  - icon: ⚡️
-    title: Vite, The DX that can't be beat
-    details: Blazingly Fast Build Tools
-  - icon: 🖖
-    title: Power by VitePress
-    details: Support Vue3 + Vite and Typescript, out of the box
-  - icon: 🛠️
-    title: Covers the entire Web course
-    details: Front-end & Back-end and also Dev-ops
+  - icon: ✌️
+    title: Amazing Courses
+    details: Level up your knowledge with our best, up-to-date programming courses!
+  - icon: 📹
+    title: 4K Videos
+    details: High quality videos with high quality content, help you get high quality career!
+  - icon: 📃
+    title: Brilliant Documentation
+    details: Learn how to programming with step-by-step explanations and gorgeous examples.
+  - icon: 🌐
+    title: Friendly Community
+    details: The WhiteHorse Community where you can learn and grow together with thousands of other gentle members.
 ---
