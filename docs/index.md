@@ -14,7 +14,7 @@ hero:
       link: note/Intro/Introduce
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/lalalavard/white-horse
 features:
   - icon: ⚡️
     title: Vite, The DX that can't be beat
