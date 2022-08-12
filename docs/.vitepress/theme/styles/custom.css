@@ -5,6 +5,13 @@
     #bd34fe,
     #41d1ff
   );
+
   /* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
   /* --vp-home-hero-image-filter: brightness(0) invert(1); */
+}
+
+:deep(.image-src:hover) {
+  cursor: pointer;
+  transition: transform 1.2s;
+  transform: translate(-52%, -52%) scale(1.05) rotate(360deg);
 }

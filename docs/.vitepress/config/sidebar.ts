@@ -117,6 +117,22 @@ const Sidebar = [
     ]
   },
   {
+    text: 'Git',
+    collapsible: true,
+    collapsed: true,
+    items: [
+      { text: 'Git使用', link: '/note/Git/Git' },
+      { text: 'Git rebase', link: '/note/Git/Git-rebase' },
+      { text: 'Pull Request', link: '/note/Git/PullRequest' }
+    ]
+  },
+  {
+    text: 'Linux',
+    collapsible: true,
+    collapsed: true,
+    items: [{ text: 'Linux', link: '/note/Linux/常用命令大全' }]
+  },
+  {
     text: 'Docker',
     collapsible: true,
     collapsed: true,
@@ -142,6 +158,17 @@ const Sidebar = [
       { text: 'Suspense', link: '/note/Vue/Suspense' },
       { text: 'Vue-Router', link: '/note/Vue/Vue-Router' },
       { text: 'Pinia', link: '/note/Vue/Pinia' }
+    ]
+  },
+  {
+    text: 'Networks',
+    collapsible: true,
+    collapsed: true,
+    items: [
+      { text: 'HTTP', link: '/note/Networks/HTTP' },
+      { text: 'TCP/UDP', link: '/note/Networks/TCP-UDP' },
+      { text: '网络安全', link: '/note/Networks/网络安全' },
+      { text: '常考面试题', link: '/note/Networks/常考面试题' }
     ]
   },
   {
