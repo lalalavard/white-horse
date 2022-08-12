@@ -10,11 +10,11 @@ Git 是一个开源免费的分布式版本控制系统, 被广泛应用于团�
 
 ::: info 学习 Git
 
-- [learngitbranching](http://localhost:3000/note/Git/.html)
+- [learngitbranching](https://learngitbranching.js.org/?locale=zh_CN)
 
   - 这个网站从基础的 git 操作到高阶操作四个阶段全面覆盖，相比看视频文档，可视化动画的操作更加直观。
 
-- [廖雪峰，廖神的 Git 教程](http://localhost:3000/note/Git/.html)
+- [廖雪峰，廖神的 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600)
   - 浅显易懂，带图文带练习非常适合入门，当年小白的我也是看廖神的博客过来滴
 
 :::
