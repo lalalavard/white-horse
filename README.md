@@ -31,20 +31,6 @@
 - [ ] ✉️Email
 - [ ] ...etc
 
-## 🧑‍💻Contributor
-
-> ...is Coming
-
-<!-- ## 👇Follow us -->
-
-## 💰Sponsor
-
-<p align="center">
-  <a href="https://cdn.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg">
-    <img src='https://cdn.jsdelivr.net/gh/YunYouJun/sponsors/public/sponsors.svg'/>
-  </a>
-</p>
-
 ## 🎬Video
 
 ![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
