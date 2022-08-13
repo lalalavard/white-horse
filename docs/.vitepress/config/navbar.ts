@@ -13,7 +13,8 @@ interface NavItemWithChildren {
 }
 
 const navbar = [
-  { text: 'Guide', link: '/note/Intro/Introduce' },
+  { text: 'Docs', link: '/note/Intro/Introduce' },
+  { text: 'Courses', link: '/Courses' },
   {
     text: 'Interview',
     items: [
@@ -39,8 +40,7 @@ const navbar = [
       { text: 'Tools Sharing', link: '/resource/Tools' }
     ]
   },
-  { text: 'About', link: '/About' },
-  { text: 'Links', link: '/FriendLink' }
+  { text: 'Community', link: '/Community' },
 ]
 
 // export = navbar
